@@ -8,6 +8,7 @@ import edu.unac.exception.RepeatedCharacterException;
 import java.security.SecureRandom;
 
 public class Main {
+    //primer cambio
     public static void main(String[] args) {
         SimpleRandomProvider secureRandom = new SimpleRandomProvider();
         SaltGenerator saltGenerator = new SaltGenerator(secureRandom);
